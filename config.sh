@@ -28,8 +28,8 @@ BOOTTYPE="pd-ssd"
 PREEMPTIBLE="true"
 
 # GCP Base Image and Family (replace these if you're using your own custom image - give it a family name and enter the Project ID)
-IMAGEBASEFAMILY="windows-2019"
-IMAGEBASEPROJECT="windows-cloud"
+IMAGEBASEFAMILY="custom-windows"
+IMAGEBASEPROJECT="velvety-ground-273423"
 
 # Various resource and label names
 GCLOUDRIG_PREFIX="gcloudrig"                     # note: also used in gcloudrig-boot.ps1
