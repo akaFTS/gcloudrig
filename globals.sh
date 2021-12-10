@@ -460,6 +460,7 @@ function gcloudrig_create_instance_template {
   gcloud compute instance-templates create "$templateName" \
       --accelerator "type=$ACCELERATORTYPE,count=$ACCELERATORCOUNT" \
       --boot-disk-type "$BOOTTYPE" \
+      --boot-disk-size "70GB" \
       $imageFlags \
       --labels "$GCRLABEL=true" \
       --machine-type "$INSTANCETYPE" \
